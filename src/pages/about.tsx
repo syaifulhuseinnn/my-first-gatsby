@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-const index = () => {
+const about = () => {
   return (
     <div>
       <nav>
@@ -15,10 +15,10 @@ const index = () => {
         </ul>
       </nav>
       <main>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
+        <h1>About page!</h1>
       </main>
     </div>
   );
 };
 
-export default index;
+export default about;
